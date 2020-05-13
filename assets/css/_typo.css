@@ -1,0 +1,163 @@
+h1,h2,h3,h4,h5,h6{
+	color: ;
+	font-family: ;
+	font-weight: 700;
+	line-height: ;
+}
+h1{
+	font-size: 48px;
+}
+h2{
+	font-size: 45px;
+	font-family: 'Merriweather', serif;
+}
+h3{
+	font-size: 40px;
+	font-family: 'Merriweather', serif;
+}
+h4{
+	font-size: 35px;
+}
+h5{
+	font-size: 30px;
+}
+h6{
+	font-size: 25px;
+}
+@media(max-width: 1199px){
+	.hdr-logo-wrap{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+@media(max-width: 991px){
+	.hdr-logo a {
+	    max-width: 130px;
+	}
+	.hdr-logo-right a {
+	    max-width: 160px;
+	}
+}
+@media(max-width: 767px){
+	.hdr-logo a {
+	    max-width: 110px;
+	}
+	.hdr-logo-right a {
+	    max-width: 140px;
+	}
+}
+@media(max-width: 570px){
+
+}
+@media(max-width: 370px){
+	.hdr-logo a {
+	    max-width: 90px;
+	}
+	.hdr-logo-right a {
+	    max-width: 120px;
+	}
+}
+
+
+/* responsive */
+/* @media(max-width: 1199px){
+	h1{
+		font-size: 38px!important;
+	}
+	h2{
+		font-size: 36px!important;
+	}
+	h3{
+		font-size: 32px!important;		
+	}
+	h4{
+		font-size: 30px!important;		
+	}
+	.special-offers-dec h5{
+		font-size: 26px;
+	}
+	.special-offers-dec h1{
+		font-size: 38px;
+	}
+	.special-offers-dec span{
+		font-size: 22px;
+	}
+	.dr-andy-person{
+		text-align: center;
+		float: none;
+		max-width: none;
+		min-height: 100%;
+	}
+	.dr-andy-sec3-dec{
+		float: none;
+		max-width: none;
+		margin-top: 20px;
+		height: auto;
+	}
+	.dr-andy-sec3-fullwidth-dec{
+		padding-top: 0;
+	}
+	.acai-powerfull-sec5-person{
+		width: 100%;
+		text-align: center;
+		float: none;
+		margin-bottom: 20px;
+		margin-right: 0;
+		padding-left: 0;
+	}
+	.aci-easily-sec6-person{
+		display: block;
+		float: none;
+		text-align: center;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+	.aci-easily-sec6-dec{
+		float: none;
+		max-width: 100%;
+		margin-right: 0;
+	}
+	.acai-feature-first-items-dec p{
+		padding-right: 215px;
+	}
+	.acai-feature-3rd-items-dec p{
+		padding-right: 215px;
+	}
+	.acai-stock-person{
+		float: none;
+		text-align: center;
+		padding-left: 0!important;
+		padding-top: 0!important;
+		padding-bottom: 25px!important;
+	}
+	.pull-right{
+		order: 0!important;
+	}
+	.acai-stock-icon {
+		text-align: center;
+	    padding-bottom: 25px;
+	}
+	.acai-packeg-items-wrap > ul >li{
+		max-width: 100%;
+		width: 100%;
+		padding-left: 0;
+	    padding-right: 0;
+	    margin-bottom: 30px;
+	}
+	.acai-packeg-items-wrap > ul >li:nth-child(4){
+	    margin-bottom: 0;
+	}
+	.show-hide{
+		display: none!important;
+	}
+	.show-hide-2nd{
+		display: block;!important;
+	}
+	.packeg-items-1st-bdr-btm,
+	.packeg-items-2nd-bdr-btm,
+	.packeg-items-3rd-bdr-btm{
+		max-width: 354px;
+	    width: 100%;
+	    margin: auto;
+	}
+} */

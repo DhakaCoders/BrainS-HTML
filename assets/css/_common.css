@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-size: 22px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: #000;
+	background: url('../images/body.png');
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.clearfix:after,
+.clearfix:before{
+	content: "";
+	display: table;
+	clear: both;
+}
+.ulc{
+	margin: 0;
+	padding: 0;
+}
+.plr{
+	padding-left: 31px;
+	padding-right: 31px;
+}
+a{
+	text-decoration: none;
+	transition: 0.3s all ease-out 0s;
+	-webkit-transition: 0.3s all ease-out 0s;
+	-ms-transition: 0.3s all ease-out 0s;
+}
+a:hover{
+	transition: 0.3s all ease-out 0s;
+	-webkit-transition: 0.3s all ease-out 0s;
+	-ms-transition: 0.3s all ease-out 0s;
+}
+.container{
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+/*  */
+/* .bs-remove-gap .container-fluid, */
+.bs-remove-gap .container{
+	padding-left: 0!important;
+	padding-right: 0!important;
+  	width: auto;
+}
+.bs-remove-gap .container-fluid .row,
+.bs-remove-gap .container .row{
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+
+.bs-remove-gap .container-fluid .row .col-lg-1, .bs-remove-gap .container-fluid .row .col-lg-10, .bs-remove-gap .container-fluid .row .col-lg-11, .bs-remove-gap .container-fluid .row .col-lg-12, .bs-remove-gap .container-fluid .row .col-lg-2, .bs-remove-gap .container-fluid .row .col-lg-3, .bs-remove-gap .container-fluid .row .col-lg-4, .bs-remove-gap .container-fluid .row .col-lg-5, .bs-remove-gap .container-fluid .row .col-lg-6, .bs-remove-gap .container-fluid .row .col-lg-7, .bs-remove-gap .container-fluid .row .col-lg-8, .bs-remove-gap .container-fluid .row .col-lg-9, 
+.bs-remove-gap .container-fluid .row .col-md-1, .bs-remove-gap .container-fluid .row .col-md-10, .bs-remove-gap .container-fluid .row .col-md-11, .bs-remove-gap .container-fluid .row .col-md-12, .bs-remove-gap .container-fluid .row .col-md-2, .bs-remove-gap .container-fluid .row .col-md-3, .bs-remove-gap .container-fluid .row .col-md-4, .bs-remove-gap .container-fluid .row .col-md-5, .bs-remove-gap .container-fluid .row .col-md-6, .bs-remove-gap .container-fluid .row .col-md-7, .bs-remove-gap .container-fluid .row .col-md-8, .bs-remove-gap .container-fluid .row .col-md-9, 
+.bs-remove-gap .container-fluid .row .col-sm-1, .bs-remove-gap .container-fluid .row .col-sm-10, .bs-remove-gap .container-fluid .row .col-sm-11, .bs-remove-gap .container-fluid .row .col-sm-12, .bs-remove-gap .container-fluid .row .col-sm-2, .bs-remove-gap .container-fluid .row .col-sm-3, .bs-remove-gap .container-fluid .row .col-sm-4, .bs-remove-gap .container-fluid .row .col-sm-5, .bs-remove-gap .container-fluid .row .col-sm-6, .bs-remove-gap .container-fluid .row .col-sm-7, .bs-remove-gap .container-fluid .row .col-sm-8, .bs-remove-gap .container-fluid .row .col-sm-9, 
+.bs-remove-gap .container-fluid .row .col-xs-1, .bs-remove-gap .container-fluid .row .col-xs-10, .bs-remove-gap .container-fluid .row .col-xs-11, .bs-remove-gap .container-fluid .row .col-xs-12, .bs-remove-gap .container-fluid .row .col-xs-2, .bs-remove-gap .container-fluid .row .col-xs-3, .bs-remove-gap .container-fluid .row .col-xs-4, .bs-remove-gap .container-fluid .row .col-xs-5, .bs-remove-gap .container-fluid .row .col-xs-6, .bs-remove-gap .container-fluid .row .col-xs-7, .bs-remove-gap .container-fluid .row .col-xs-8, .bs-remove-gap .container-fluid .row .col-xs-9{
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+
+
+.bs-remove-gap .container .row .col-lg-1, .bs-remove-gap .container .row .col-lg-10, .bs-remove-gap .container .row .col-lg-11, .bs-remove-gap .container .row .col-lg-12, .bs-remove-gap .container .row .col-lg-2, .bs-remove-gap .container .row .col-lg-3, .bs-remove-gap .container .row .col-lg-4, .bs-remove-gap .container .row .col-lg-5, .container .row .col-lg-6, .bs-remove-gap .container .row .col-lg-7, .bs-remove-gap .container .row .col-lg-8, .bs-remove-gap .container .row .col-lg-9, 
+.bs-remove-gap .container .row .col-md-1, .bs-remove-gap .container .row .col-md-10, .bs-remove-gap .container .row .col-md-11, .bs-remove-gap .container .row .col-md-12, .bs-remove-gap .container .row .col-md-2, .bs-remove-gap .container .row .col-md-3, .bs-remove-gap .container .row .col-md-4, .bs-remove-gap .container .row .col-md-5, .container .row .col-md-6, .bs-remove-gap .container .row .col-md-7, .bs-remove-gap .container .row .col-md-8, .bs-remove-gap .container .row .col-md-9, 
+.bs-remove-gap .container .row .col-sm-1, .bs-remove-gap .container .row .col-sm-10, .bs-remove-gap .container .row .col-sm-11, .bs-remove-gap .container .row .col-sm-12, .bs-remove-gap .container .row .col-sm-2, .bs-remove-gap .container .row .col-sm-3, .bs-remove-gap .container .row .col-sm-4, .bs-remove-gap .container .row .col-sm-5, .container .row .col-sm-6, .bs-remove-gap .container .row .col-sm-7, .bs-remove-gap .container .row .col-sm-8, .bs-remove-gap .container .row .col-sm-9, 
+.bs-remove-gap .container .row .col-xs-1, .bs-remove-gap .container .row .col-xs-10, .bs-remove-gap .container .row .col-xs-11, .bs-remove-gap .container .row .col-xs-12, .bs-remove-gap .container .row .col-xs-2, .bs-remove-gap .container .row .col-xs-3, .bs-remove-gap .container .row .col-xs-4, .bs-remove-gap .container .row .col-xs-5, .container .row .col-xs-6, .bs-remove-gap .container .row .col-xs-7, .bs-remove-gap .container .row .col-xs-8, .bs-remove-gap .container .row .col-xs-9{
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+.p-text-bg-color{
+	display: inline-block;
+    vertical-align: baseline;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    background-size: 100% 100%!important;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.p-text-bg-color-requred{
+	display: inline-block;
+    vertical-align: baseline;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    background-size: 100% 100%!important;
+    margin-right: -15px;
+    margin-left: -6px;
+    padding-left: 6px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+p >span{
+	font-weight: 700;
+}

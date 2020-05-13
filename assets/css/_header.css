@@ -1,0 +1,30 @@
+.header-sec{
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
+	-webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
+	-moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
+	background: #fff;
+	z-index: 5;
+	position: relative;
+}
+.hdr-logo-wrap{
+	padding-top: 12px;
+	padding-bottom: 16px;
+}
+.hdr-logo{
+	float: left;
+	align-items: center;
+	padding-top: 6px;
+}
+.hdr-logo a{
+	display: inline-block;
+	max-width: 151px;
+	width: 100%;
+}
+.hdr-logo-right{
+	float: right;
+}
+.hdr-logo-right a{
+	display: inline-block;
+	max-width: 223px;
+	width: 100%;
+}
