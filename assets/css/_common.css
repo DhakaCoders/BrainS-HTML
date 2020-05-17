@@ -5,9 +5,9 @@
 	box-sizing: border-box;
 }
 body{
-	font-size: 22px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 	line-height: 1.2em;
 	color: #000;
 	background: url('../images/body.png');
@@ -46,8 +46,6 @@ a:hover{
 	width: 100%;
 	margin: 0 auto;
 }
-/*  */
-/* .bs-remove-gap .container-fluid, */
 .bs-remove-gap .container{
 	padding-left: 0!important;
 	padding-right: 0!important;
@@ -86,19 +84,4 @@ a:hover{
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
-}
-.p-text-bg-color-requred{
-	display: inline-block;
-    vertical-align: baseline;
-    background-repeat: no-repeat!important;
-    background-position: center center!important;
-    background-size: 100% 100%!important;
-    margin-right: -15px;
-    margin-left: -6px;
-    padding-left: 6px;
-    padding-right: 15px;
-    padding-bottom: 5px;
-}
-p >span{
-	font-weight: 700;
 }

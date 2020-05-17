@@ -13,11 +13,11 @@
 .hdr-logo{
 	float: left;
 	align-items: center;
-	padding-top: 6px;
+	padding-top: 10px;
 }
 .hdr-logo a{
 	display: inline-block;
-	max-width: 151px;
+	max-width: 132px;
 	width: 100%;
 }
 .hdr-logo-right{
