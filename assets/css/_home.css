@@ -889,13 +889,14 @@
 }
 .pacheg-items-section-dec-link ul li{
 	padding-bottom: 18px;
+	display: inline-block;
 }
 .pacheg-items-section-dec-link ul li a{
 	font-weight: 400;
 	color: #1048c7;
 	font-size: 16px;
 	text-decoration: none;
-	display: inline-block;
+	word-break: break-all;
 }
 .pacheg-items-section-dec-link ul li a:nth-child(1){
 	color: #000;
@@ -1150,9 +1151,10 @@
 	}
 	.footer-innr .footer-copy-right p{
 		font-size: 14px!important;
-		margin-bottom: 0;
+		margin-bottom: 0!important;
 	}
 	.footer-dec p{
+		margin-bottom: 0!important;
 		font-size: 14px!important;
 	}
 }
@@ -1202,8 +1204,12 @@
 		font-size: 26px!important;
 		padding: 10px 20px 12px 20px;
 	}
+	.footer-innr .footer-copy-right p{
+		font-size: 12px!important;
+		margin-bottom: 0;
+	}
 	.footer-dec p{
-		font-size: 14px!important;
+		font-size: 12px!important;
 	}
 }
 @media(max-width: 437px){
@@ -1215,5 +1221,8 @@
 	}
 	.footer-nav > ul >li >a{
 		font-size: 14px;
+	}
+	.formula-3rd-items-hedding h4{
+		padding: 10px 16px 12px 16px!important;
 	}
 } 
