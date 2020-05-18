@@ -12,7 +12,6 @@
 }
 .hdr-logo{
 	float: left;
-	align-items: center;
 	padding-top: 10px;
 }
 .hdr-logo a{
@@ -27,4 +26,40 @@
 	display: inline-block;
 	max-width: 223px;
 	width: 100%;
+}
+@media(max-width: 1199px){
+	.hdr-logo-wrap{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+@media(max-width: 991px){
+	.hdr-logo a{
+		max-width: 120px;
+	}
+	.hdr-logo-right a{
+		max-width: 180px;
+	}
+}
+@media(max-width: 767px){
+	.hdr-logo{
+		padding-top: 7px;
+	}
+	.hdr-logo a{
+		max-width: 105px;
+	}
+	.hdr-logo-right a{
+		max-width: 160px;
+	}
+}
+@media(max-width: 479px){
+	.hdr-logo{
+		padding-top: 5px;
+	}
+	.hdr-logo a{
+		max-width: 90px;
+	}
+	.hdr-logo-right a{
+		max-width: 135px;
+	}
 }
